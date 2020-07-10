@@ -18,7 +18,7 @@ The preprocessing of raw audio waveforms is based on code from the above reposit
 Note that the VGGish model checkpoint on the audioset repo was converted into keras using the following code. Please follow their instructions to get VGGish keras weights and store it in the 'base' folder under root directory with the name 'vggish_weights_keras.h5'. 
 https://github.com/antoinemrcr/vggish2Keras/blob/master/convert_ckpt.py
 
-Training <br>
+_Training_ <br>
 To train the shared auditory encoding model, run the following script from the scripts folder: <br>
 python train_audio_shared_HCP.py --lrate 0.0001 --epochs 50 --model_file model_best_path --lastckpt_file last_ckpt_path --log_file log_path --delay 4 --gpu_device 0 --batch_size 1
 
