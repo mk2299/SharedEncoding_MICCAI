@@ -1,4 +1,4 @@
-# SharedEncoding_MICCAI
+# Shared Neural Encoding (MICCAI'20)
 Source code for the following paper: https://arxiv.org/pdf/2006.15802.pdf
 (To appear in the proceedings of MICCAI 2020)
 
